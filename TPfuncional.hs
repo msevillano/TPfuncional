@@ -68,7 +68,7 @@ pedro = Gimnasta {
 
 ejercitar gimnasta ejercicio tiempo {
     |tiempo < 120 = habilidad gimnasta = [ejercicio:habilidad gimnasta]
-	|otherwise = ejercicio gimnasta , tiempo = tiempo - 120, ejercitar gimnasta ejercicio (tiempo - 120)
+    |otherwise = ejercicio gimnasta , tiempo = tiempo - 120, ejercitar gimnasta ejercicio (tiempo - 120)
 }
 -- rutinas
 
